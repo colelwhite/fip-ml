@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['building-footprints']
+
+roboflow:
+  workspace: fip
+  project: fire-insurance
+  version: 14
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fip/fire-insurance/dataset/14
